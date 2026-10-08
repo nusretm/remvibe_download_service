@@ -1,0 +1,21 @@
+publish_to: none
+name: remvibe_download_service
+description: RemVibe Download Service.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.12.2
+
+# Add regular dependencies here.
+dependencies:
+  dio: ^5.11.1
+  path: ^1.9.0
+  remvibe_dart_models:
+    git:
+      url: https://github.com/nusretm/remvibe_dart_models
+      ref: main
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
