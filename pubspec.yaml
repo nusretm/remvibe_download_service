@@ -13,7 +13,7 @@ dependencies:
   remvibe_dart_models:
     git:
       url: https://github.com/nusretm/remvibe_dart_models
-      ref: feature/package-stabilization
+      ref: main
 
 dev_dependencies:
   lints: ^5.0.0
